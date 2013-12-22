@@ -327,6 +327,8 @@ void Path_Adj(AdjList *G, int F[][MAXVEX], int Path[MAXVEX][MAXVEX])
 		printf("  %d\n\n", F[v][w]);
 	}
 }
+
+
 //Floyed 算法求最短路径
 void Floyed_Adj(AdjList *G, int F[][MAXVEX])
 {
