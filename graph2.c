@@ -16,6 +16,7 @@
  * =====================================================================================
  */
 
+
 #include <string.h>
 #include "graph.h"
 #include "queue.h"
@@ -170,6 +171,8 @@ int NextAdj(AdjList *G, int v, int w)
 	return -1;
 }
 */
+
+
 //广度优先遍历，求一个景点到每个景点的一条路径
 void BFS(AdjList *G, int v0)
 {
